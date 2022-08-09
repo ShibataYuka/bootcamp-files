@@ -1,0 +1,152 @@
+/* Universal Selector */ 
+/**{
+    background-color: red;
+} */
+
+h2.p{
+    color: dimgray;
+}
+
+
+/* h3{  
+    background-color: darkseagreen;
+}
+/*** Class as Selector ***/
+.chapter {
+    color: rgb(255, 230, 0, 0.5);
+}
+
+.chapter-2{
+    background-color: aqua;
+}
+
+/*** ID as Selector ***/
+#chapter-one{
+    background-color: coral;
+}
+
+div #chapter-two{
+    color: #ff0000;
+    background-color: midnightblue;
+}
+
+#chapter-three{
+    background-color: darkslategray;
+}
+/*** Combinator ***/
+/* parent child */
+/* .chapter3 #chapter-three { 
+    color: green;
+}*/
+p{
+    color: darkblue;
+    /* all <p> inside class chapter-1*/
+}
+
+
+h1,h2{
+    font-family: serif;
+}
+h3{
+    font-family: sans-serif;
+}
+
+/*** Font-Size ***/
+h3{
+    font-size: 40px;
+    /* pixel - smallest unit of */
+}
+
+h2{
+    font-size: 2em;
+    /* lem = 16px */
+}
+
+h1{
+    font-size: 150%;
+    /* 15i0% = 16px */
+}
+
+/***Font-Weight***/
+/* bold = 700
+    bolder - +100 of the parent
+    lighter - -100 of the parent */
+h2{
+    font-weight: 200;
+}
+
+
+.chapter-2 p{
+    font-weight: bold;
+   
+}
+
+.chapter-1 p{
+    font-weight: 300;
+}
+
+.chapter-3 p{
+
+}
+
+/*** font Style***/
+.chapter{
+    font-style: italic;
+    /* normal, italic,  */
+}
+
+
+h1{
+    text-transform: uppercase;
+}
+
+h3{
+    text-transform: lowercase;
+}
+
+.chapter-3 p{
+    
+}
+
+
+/***Decilation***/
+h1{
+    text-decoration: underline;
+    /* underline, overline, line-throgh */
+}
+
+.chapte-2 a{
+    text-decoration: none;
+}
+
+/*** Aligment***/
+h1, h2{
+    text-align: center;
+}
+.chapte-two{
+    text-align: right;
+}
+
+/***Text Shodw***/
+h1{
+    text-shadow: 3px 2px #c58e8e;
+}
+
+/***Indentation***/
+.chapter-1 p{
+    text-indent: 50px;
+}
+
+
+h3{
+    letter-spacing: 2px;
+}
+
+.chapter-3 p{
+    letter-spacing: -1px;
+}
+
+/*Word Spasing*/
+.chapter-2 p{
+    word-spacing: 5px;
+}

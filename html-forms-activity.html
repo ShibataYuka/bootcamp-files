@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Activity</title>
+</head>
+<body style="background-color: lightyellow;">
+    <form action="" method="">
+        <fieldset>
+            <legend>REGISTRATION</legend>
+            <!-- Username -->
+            <label for="username">User Name
+                <input type="text" name="username" id="username" placeholder="Enter your username here" required maxlength="10" minlength="3"> 
+            </label>
+
+            <!-- Age -->
+            <label for="age">Age
+                <input type="number" name="age" id="age" placeholder="Enter your age here" required>
+            </label> 
+
+            <!-- Gender -->
+            
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+
+            <!-- Job -->
+            <label for="job">What is your job?</label>
+            <select name="job" id="job">
+                <option disabled selected>Select your job</option>
+                <option value="working adults">working adult</option>
+                <option value="full-time housewifes">full-time housewife</option>
+                <option value="freeters">freeters</option>
+                <option value="students">students</option>
+                <option value="unemployed">unemployed</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <p>Which do you like: dogs or cats?</p>
+        <input type="radio" name="animals" id="dogs" value="dogs">
+        <label for="dogs">Dogs</label>
+        <input type="radio" name="animals" id="cats" value="cats">
+        <label for="cats">Cats</label>
+    
+        <br>
+
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="65" rows="10"></textarea>
+        
+        <br>
+        
+        <label for="upload-image">If you have dogs or cats, please upload their image here</label>
+        <input type="file" name="upload_image" id="upload-image">
+        
+        <br>
+
+        <input type="submit" value="Submit" name="btn_submit">
+        <button type="submit" name="btn_submit">Submit</button>
+    </form>
+</body>
+</html>
+</body>
+</html>

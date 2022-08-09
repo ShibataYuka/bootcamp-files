@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        #ol-1{
+            list-style-type: lower-roman;
+            /* decimal-leading-zero, lower-alph. upper-alph */
+            /* (1, a, A, i, I) */
+        }
+
+        #ul-1{
+            list-style-type: circle;
+            /*  */
+        }
+
+        #movies{
+            list-style-type: upper-roman;
+        }
+
+        #awake-list{
+            /* list-style-type: lower-roman;
+            list-style-position: inside; */
+            list-style: lower-roman inside;
+        }
+
+        #wire-list{
+            /* list-style-type: lower-roman;
+            list-style-position: outside; */
+            list-style: lower-roman outside;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ordered List</h1>
+
+    <h2>top 5 Ceaches in the world</h2>
+    <p>Sccording to Conde Nest Travaler</p>
+    <ol id="ol-1">
+        <li>Gouvernur, St. barts</li>
+        <li>White Beach, coracay, Philippines</li>
+        <li>North Island, Seychelles</li>
+        <li>North Male Atoll, Maldeves</li>
+        <li>Parrot Cay, Turks and Caicos</li>
+    </ol>
+
+    <h1>Unorderd Lest</h1>
+
+    <h2>Grocery List</h2>
+    <ul id="ul-1">
+        <li>2 cartons</li>
+        <li>1 tray of eggs</li>
+        <li>3 tomatoes</li>
+        <li>2 carrots</li>
+    </ul>
+<h1>Nested List</h1>
+
+<h2>2021 Movies</h2>
+<ol>
+    <li id="movies">Awake
+        <ol id="awake-list">
+            <li>Gina Rodriguez - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas expedita aliquam saepe incidunt! Eius provident quae libero hic laborum accusamus, obcaecati esse perferendis minus, cumque saepe earum sint cupiditate neque aut quis incidunt omnis quo officia labore nam eveniet. Nesciunt eius sed perspiciatis ad ullam aliquid est, quae corrupti necessitatibus?</li>
+            <li>Ariana Greenblatt - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minima dolor inventore beatae delectus, vel laborum magnam omnis perspiciatis animi dicta. Nobis ad illo vitae eaque odio magnam recusandae quae dolores ullam dignissimos architecto, cum laboriosam nam, nihil quidem molestiae voluptatum expedita reiciendis labore facere? Voluptates deserunt quasi distinctio facilis?</li>
+            <li>Lucius Hoyos - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad sapiente, a quae consequatur similique fugiat earum veniam ea odio rem doloribus nihil expedita ipsa, animi ipsam in fugit suscipit voluptate eaque magnam rerum sit quas? Eum dignissimos, quia sequi itaque, consequatur tempora nam, recusandae voluptate pariatur sint aliquid at natus?</li>
+        </ol>
+    </li>
+    <li id="movies">Outside the Wire
+        <ol id="wire-list">
+            <li>Anthony Mackie - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ab repudiandae laborum aperiam incidunt minima magni delectus illo velit sed sequi nostrum reiciendis mollitia numquam! Iure iusto asperiores, minima qui ut non quasi sit quisquam consequuntur, voluptatibus incidunt explicabo dolores hic inventore repellat, reprehenderit reiciendis ea amet sed laboriosam perspiciatis!</li>
+            <li>Damson Idris - Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque quae sunt qui, harum ducimus eaque quia, explicabo amet voluptates ut facere obcaecati? Accusantium rerum alias debitis quas saepe repellat eligendi dolorum deserunt necessitatibus, voluptatem error, quaerat vero ex. Iure consequatur iste corporis voluptate mollitia. Consectetur recusandae numquam dolores cupiditate?</li>
+            <li>Emily Beecham - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, natus facilis, repellat esse consectetur explicabo temporibus ad quae minima accusantium officia cum! Dolore, quidem repudiandae debitis ratione dignissimos commodi cupiditate consectetur ex suscipit consequuntur itaque perspiciatis, animi aliquam at maxime impedit eos fugit. Exercitationem harum veniam ab. Hic, repellat quia?</li>
+        </ol>
+    </li>
+</ol>
+</body>
+</html>
